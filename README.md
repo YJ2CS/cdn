@@ -4,7 +4,7 @@
 引用最新release版本资源的链接格式如下:
 **全部使用小写**
 ```yaml
-https://cdn.jsdelivr.net/gh/user/repo@version/file
+img1: https://cdn.jsdelivr.net/gh/user/repo@version/file
 ```
 例如，
 ```yaml
@@ -50,7 +50,7 @@ minjs: https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/src/core.min.js
 
 ```yaml
 # add / at the end to get a directory listing
-https://cdn.jsdelivr.net/gh/jquery/jquery/
+directory1: https://cdn.jsdelivr.net/gh/jquery/jquery/
 ```
 
 

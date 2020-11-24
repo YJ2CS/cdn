@@ -1,16 +1,24 @@
 # 简介
 为Hexo博客提供静态资源加速支持.
+用户可以使用此repo作为template，新建自己的库，建议名称为`cdn`，下面给出具体引用方法
 # 使用
 引用最新release版本资源的链接格式如下:
-**全部使用小写**
+
+**所以引用链接请全部使用小写**
+
+- 小写字符jsdelivr可以自动转换，不用担心
+
+建议引用格式:
 ```yaml
 img1: https://cdn.jsdelivr.net/gh/user/repo@version/file
 ```
+
 例如，
 ```yaml
 img1: https://cdn.jsdelivr.net/gh/yj2cs/cdn@latest/img/cover/(0).jpg.webp
 ```
-也可以使用相对路径方式引用
+
+建议引用格式2:也可以使用相对路径方式引用
 ```yaml
 cdn: https://cdn.jsdelivr.net/gh/yj2cs/cdn@latest
 ...
